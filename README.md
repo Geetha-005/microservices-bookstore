@@ -143,3 +143,6 @@ Payment confirmed → Order status updated.
 Client → API Gateway → Eureka Lookup → Target Microservice → Database
 
 
+## 🖼️ Application Architecture Flowchart
+
+![Microservices Architecture](https://github.com/Geetha-005/microservices-bookstore/blob/main/WhatsApp%20Image%202026-02-12%20at%2021.15.08.jpeg)
