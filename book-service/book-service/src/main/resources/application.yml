@@ -6,7 +6,7 @@ spring:
     name: BOOK-SERVICE
 
   datasource:
-    url: jdbc:mysql://localhost:3306/bookdb?useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/your_database_name
     username: root
     password: Krishna@18
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -16,6 +16,9 @@ spring:
       ddl-auto: update
     show-sql: true
     database-platform: org.hibernate.dialect.MySQLDialect
+
+  cache:
+    type: simple   # 👈 ADD THIS LINE
 
 eureka:
   client:
