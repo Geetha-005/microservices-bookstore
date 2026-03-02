@@ -1,7 +1,7 @@
 # microservices-bookstore
 uisng the microservices implemented the book store with the 3 services-- userservice ,orderservice and the payment service
 
-🚀 Project Overview
+🚀 Project Overview:
 
 This project is a Microservices-based Book Store Application developed using Spring Boot (backend) and React (frontend).
 
